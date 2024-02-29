@@ -1,0 +1,125 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url(../img/sfondo.png);
+    font-family: poppins;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 0.9em;
+        margin-bottom: 15px;
+    }
+    p {
+        margin-bottom: 20px ;
+        font-weight: 400;
+        font-size: 0.8em;
+    }
+    strong {
+        font-weight: bold;
+    }
+/* HEADER */
+header h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+header a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-weight:600;
+}
+header ul {
+    list-style: none;
+}
+.box_header {
+width: 300px;
+height:250px ;
+background-color: rgb(14, 126, 160);
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+color: rgb(241, 241, 241);
+text-align: center;
+padding: 20px;
+box-sizing: border-box;
+box-shadow: -5px 5px 27px 12px rgba(0,0,0,0.1);
+}
+/* MAIN */
+.box_main {
+    width: 300px;
+    height:1600px ;
+    background-color: rgb(248, 248, 248);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: -5px 5px 27px 12px rgba(0,0,0,0.1);
+}
+
+#sub {
+    color: gray;
+}
+span {
+    color: rgb(131, 18, 134);
+}
+ul {
+    list-style: disc
+}
+ol {
+   list-style: decimal;
+}
+.list {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+iframe {
+    border-radius: 7%;
+    margin-bottom: 20px;
+}
+.newsletter {
+    width: 260px;
+    height: 180px;
+    background-color: rgba(128, 128, 128, 0.178);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+.table {
+    font-weight: 400;
+    font-size: 0.8em;
+    border-bottom: 1px solid blue;
+    margin-bottom: 20px;
+}
+th {
+    background-color: rgba(14, 110, 255, 0.692);
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+td {
+    padding: 7px;
+}
+.graytd {
+    background-color: rgba(128, 128, 128, 0.164);
+}
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
